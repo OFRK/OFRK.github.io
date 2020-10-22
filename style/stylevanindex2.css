@@ -2,35 +2,36 @@ head{
 
 }
 body {
-background-image: url('3babdc0ac1 (1).jpg');
-background-repeat: no-repeat;
+background-image: url('imagesaa.jpg');
+background-repeat: repeat-x;
 background-attachment: fixed;
-background-size: cover;
+background-size: contain;
 }
 h1{
-
+color:gold;
 }
 h2{
-
+color:gold;
 }
 h3{
-
+color:gold;
 }
 p{
-
+color:gold;
 }
 table{
 
 }
 table,th,td{
-
+color:gold;
 }
 td{
-
+  background-color: yellow;
+  color: black;
 }
 tr{
-
+  background-color: yellow;
+  color: black;
 }
 li{
 }
-  

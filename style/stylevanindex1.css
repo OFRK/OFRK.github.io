@@ -2,22 +2,22 @@ head{
 
 }
 body {
-background-image: url('3babdc0ac1 (1).jpg');
-background-repeat: no-repeat;
+background-image: url('download (1) - kopie.jpg');
+background-repeat: repeat-x;
 background-attachment: fixed;
-background-size: cover;
+background-size: contain;
 }
 h1{
-
+color:rgb(255, 255, 255);
 }
 h2{
-
+color:rgb(255, 255, 255);
 }
 h3{
-
+color:rgb(255, 255, 255);
 }
 p{
-
+color:rgb(255, 255, 255);
 }
 table{
 
@@ -32,5 +32,5 @@ tr{
 
 }
 li{
+  color:rgb(255, 255, 255);
 }
-  
