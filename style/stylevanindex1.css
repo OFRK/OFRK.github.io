@@ -8,6 +8,11 @@ background-attachment: fixed;
 background-size: contain;
 color:rgb(255, 255, 255);
 }
+#menu li {
+  display: inline;
+  float: inherit;
+  border: 5px solid yellow;
+}
 h1{
 color:rgb(255, 255, 255);
 }
@@ -28,10 +33,4 @@ table,th,td{
 td{
 
 }
-tr{
-
-}
-li,ol,ul{
-
-
-}
+tr{}
