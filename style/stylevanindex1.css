@@ -1,5 +1,6 @@
 head{
-
+  margin: 0px 30px 40px 60px;
+  padding-top:
 }
 body {
 background-image: url('download (1) - kopie.jpg');
@@ -7,6 +8,8 @@ background-repeat: repeat-x;
 background-attachment: fixed;
 background-size: contain;
 color:rgb(255, 255, 255);
+margin: 0px 30px 40px 60px;
+padding-left:
 }
 #menu li {
   display: inline;
@@ -15,17 +18,42 @@ color:rgb(255, 255, 255);
 }
 h1{
 color:rgb(255, 255, 255);
+text-align: center;
+font-family: Georgia;
+border: 6px solid white;}
 }
 h2{
-color:rgb(255, 255, 255);
+  color:rgb(255, 255, 255);
+  text-align: center;
+  font-family: Georgia;
+  border: 6px solid white;
+  margin-top: auto;
+  margin: 0px 1100px 0px 0px;
 }
-h3{
+h3, h4{
 color:rgb(255, 255, 255);
-}
-h4{
-color:rgb(255, 255, 255);
+text-align: left;
+font-style: italic;
+font-family: Courier;
+border: 2px solid red;
+margin-top: auto;
+margin: 0px 1100px 0px 0px;}
 p{
 color: white;
+}
+a:visited{
+color: orange;
+}
+p a:visited {
+ color: orange;
+}
+a:link {
+ color: gold;
+}
+li a:visited{color: orange;
+}
+li a:link{
+ color: gold;
 }
 table,th,td{
 
