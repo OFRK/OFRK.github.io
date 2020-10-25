@@ -1,6 +1,6 @@
 head{
   margin: 0px 30px 40px 60px;
-  padding-top:
+  padding-top:5px;
 }
 body {
 background-image: url('imagesaa.jpg');
@@ -57,11 +57,29 @@ tr{
   background-color: gold;
   color: black;
   border: 3px solid red;
-}
-li{
-}
-#menu li {
+}#menu li {
   display: inline;
   float: inherit;
   border: 5px solid yellow;
 }
+  @media only screen and (min-widt: 768px){
+    head{
+      margin: 0px 15px 20px 30px;
+      padding-top: 2.5px;
+    }
+    body {
+    margin: 0px 15px 20px 30px;
+    padding-left:2.5px;
+    }
+    h1,h2{
+    border: 3px solid white;}
+    }
+    h3{
+    border: 1px solid red;
+    margin-top: auto;
+    margin: 0px 550px 0px 0px;
+    }
+    #menu li {
+      border: 2.5px solid yellow;
+    }
+  }

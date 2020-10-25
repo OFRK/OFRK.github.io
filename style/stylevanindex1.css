@@ -1,6 +1,6 @@
 head{
   margin: 0px 30px 40px 60px;
-  padding-top:
+  padding-top: 5px;
 }
 body {
 background-image: url('download (1) - kopie.jpg');
@@ -9,7 +9,7 @@ background-attachment: fixed;
 background-size: contain;
 color:rgb(255, 255, 255);
 margin: 0px 30px 40px 60px;
-padding-left:
+padding-left: 5px;
 }
 #menu li {
   display: inline;
@@ -53,12 +53,30 @@ a:link {
 li a:visited{color: orange;
 }
 li a:link{
- color: gold;
-}
-table,th,td{
+ color: gold;}
+  @media only screen and (min-widt: 768px){
+    head{
+      margin: 0px 30px 40px 60px;
+      padding-top: 5px;
+    }
+    body {
+    margin: 0px 15px 20px 30px;
+    padding-left: 2.5px;
+    }
+    #menu li {
+      border: 2.5px solid yellow;
+    }
+    h1{
+    border: 3px solid white;}
+    }
+    h2{
+      border: 3px solid white;
+      margin-top: auto;
+      margin: 0px 550px 0px 0px;
+    }
+    h3, h4{
+    border: 1px solid red;
+    margin-top: auto;
+    margin: 0px 550px 0px 0px;}
 
-}
-td{
-
-}
-tr{}
+  }
